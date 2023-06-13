@@ -1,0 +1,65 @@
+.slider {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.control-dots {
+  display: none;
+}
+
+.carousel-status {
+  display: none;
+}
+
+.thumb {
+  cursor: pointer;
+  opacity: 50%;
+}
+
+.thumb.selected {
+  opacity: 1;
+}
+
+.carousel.carousel-slider .control-arrow{
+  padding: 0;
+}
+
+.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
+  border: none;
+  content: url('../assets/iconeSetaDireita.png');
+  position: absolute;
+  right: 0;
+}
+
+.carousel .control-arrow:after, .carousel.carousel-slider .control-arrow:after {
+  content: url(../assets/iconeSetaEsqueda.png);
+  position: absolute;
+  left: 0;
+}
+
+/* Responsivo */
+
+/* Altura */
+
+@media screen and (max-height: 600px) {
+  .thumbs.animated {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 1080px) {
+  .carousel-root.slider {
+    margin-bottom: 0;
+  }
+}
+
+/* Largura */
+
+@media screen and (min-width: 1750px) {
+  .thumbs.animated {
+    display: none;
+  }
+}

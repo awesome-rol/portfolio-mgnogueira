@@ -1,0 +1,55 @@
+.sobreMim__container {
+  position: relative;
+  font-size: 1.2rem;
+  max-width: 50rem;
+  padding: 4rem 0 1.2rem 4rem;
+  color: var(--branco-padrao);
+  line-height: 1.7rem;
+  left: -20rem;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.sobreMim__habilidades {
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+/* Responsivo */ 
+
+/* Largura */
+
+@media screen and (max-width: 1080px) {
+  .sobreMim__container {
+    margin-right: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .sobreMim__texto {
+    font-size: 0.8rem;
+    text-align: left;
+    line-height: 1rem;
+    width: 90%;
+  }
+
+  .sobreMim__quebraLinha {
+    display: block;
+  }
+}
+
+/* Altura */
+
+@media screen and (max-height: 820px) {
+  .sobreMim__container {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (max-height: 500px) {
+    .sobreMim__container {
+      padding-top: 1.8rem;
+    }
+}

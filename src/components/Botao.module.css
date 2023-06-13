@@ -1,0 +1,33 @@
+/* variaveis */
+
+:root {
+  --laranja-padrao: #ffb703;
+  --azul-padrao: #000e35;
+  --branco-padrao: #fafaff
+}
+
+/* conteudo */
+
+
+.botao {
+  color: #080708;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  height: 3rem;
+  width: 12rem;
+  background-color: var(--laranja-padrao);
+  border-radius: 0.2rem;
+  box-shadow:  0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: 0.2s;
+}
+
+.botao:hover { 
+  background-color: #ff9c00;
+}
+
+.botao:active {
+  transition: 0s;
+  background-color: #080708;
+  color: #fff;
+}

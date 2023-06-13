@@ -1,0 +1,149 @@
+/* conteúdo */
+
+
+
+
+.home {
+  background-image: url(../assets/backgroundHome.jpg);
+  background-size: cover;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
+  height: calc(100vh - 5.125rem);
+  width: 100vw;
+  position: absolute;
+  overflow-y: hidden;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+/* Introdução */
+
+.home__intro {
+  padding: 4rem 0 1rem 4rem;
+  color: var(--branco-padrao);
+}
+
+.home__intro_containerNomeRedes {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.home__intro_nome {
+  font-size: 1.75rem;
+}
+
+.home__intro_cargo {
+  font-family: 'Righteous', cursive;
+  font-size: 4rem;
+  color: var(--laranja-padrao);
+}
+
+.home__intro_descricao {
+  font-size: 1.75rem;
+  max-width: 700px;
+  margin: 1.2rem 0 1rem 0;
+}
+
+/* Projetos recentes */
+
+.home__projetosRecentes {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  width: 50rem;
+  height: 12rem;
+  position: absolute;
+  bottom: 4rem;
+  left: 4rem;
+  right: 0;
+}
+
+.home__projetosRecentes_titulo {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: var(--branco-padrao);
+}
+
+.home__projetosRecentes_listaContainer {
+  width: 100%;
+  display: flex;
+}
+
+.home__projetosRecentes_lista {
+  display: flex;
+  gap: 1.75rem;
+  list-style: none;
+  flex-direction: row;
+  padding: 1.2rem 0 1rem 0;
+}
+
+/* Retrato no background */
+
+.retratoBg {
+  position: absolute;
+  bottom: 0;
+  right: -20rem;
+  opacity: 0;
+  transition: 0.8s;
+}
+
+.contatoLateral__mobile {
+  display: none;
+}
+
+/* Responsivo */
+
+/* Largura */
+
+@media screen and (max-width: 1080px) {
+  .retratoBg {
+    right: -100px;
+  }
+
+  .home__projetosRecentes {
+    bottom: 8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+  @media screen and (max-width: 767px) {
+    .home__projetosRecentes {
+      display: none;
+    }
+
+  }
+
+  @media screen and (max-width: 619px) {
+    .contatoLateral__mobile {
+      display: block;
+      position: absolute;
+      bottom: 2rem;
+      left: 1rem;
+      width: 5rem;
+      
+    }
+  }
+
+/* Altura */
+
+@media screen and (max-height: 680px) {
+  .home__projetosRecentes {
+    bottom: 6rem;
+  }
+}
+
+@media screen and (max-height: 619px)  {
+  .home__projetosRecentes {
+    display: none;
+  }
+
+  
+}
+

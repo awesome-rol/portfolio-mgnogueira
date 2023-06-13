@@ -1,0 +1,42 @@
+/* conteudo */
+
+
+.home__projetosRecentes_lista_item {
+  height: 120px;
+  width: 180px;
+  text-decoration: none;
+  
+}
+
+.home__projetosRecentes_lista_item_link {
+  text-decoration: none;
+}
+
+.home__projetosRecentes_lista_itemImg {
+  background-size: cover;
+  cursor: pointer;
+  height: 120px;
+  width: 180px;
+  transition: 0.1s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 0.375rem;
+}
+
+.home__projetosRecentes_lista_itemTitulo {
+  color: var(--branco-padrao);
+  font-size: 1.2rem;
+  margin-top: 0.4rem;
+}
+
+.home__projetosRecentes_lista_itemImg:hover {
+  border-top: 3px solid var(--laranja-padrao);
+  border-left: 3px solid var(--laranja-padrao);
+}
+
+.home__projetosRecentes_lista_itemImg:active {
+  border: none;
+}
+
+.home__projetosRecentes_lista_itemTitulo:active {
+  color: var(--laranja-padrao);
+}

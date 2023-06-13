@@ -1,0 +1,138 @@
+/* conteudo */
+
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--azul-padrao);
+  border-bottom: var(--laranja-padrao) 0.125rem solid;
+}
+
+.header__perfil {
+  color: var(--branco-padrao);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-left: 4rem;
+}
+
+.header__perfil_foto {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.header__perfil_nome {
+  font-size: 1.2rem;
+}
+
+.header__menuNav_lista {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  margin-right: 4rem;
+}
+
+.header__menuNav_item {
+  color: var(--branco-padrao);
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.header__menuNav_item:hover {
+  color: var(--laranja-padrao);
+}
+
+.header__menuNav_item:active {
+  color: var(--branco-padrao);
+}
+
+.header__navMobile,
+.header__menuToggle {
+  display: none;
+}
+
+/* Responsivo */
+
+/* Largura */
+
+@media screen and (max-width: 680px) {
+
+  .header__perfil {
+    margin-left: 2rem;
+  }
+
+  .header__perfil_nome {
+    display: none;
+  }
+
+  .header__menuNav_lista {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .header__menuNav {
+    display: none;
+  }
+
+  .header__menuToggle,
+  .header__navMobile {
+    display: block;
+  }
+
+  .header__menuToggle_linha1,
+  .header__menuToggle_linha2, 
+  .header__menuToggle_linha3 {
+    background-color: var(--branco-padrao);
+    height: 3px;
+    width: 100%;
+    margin: 3px auto;
+  }
+
+  .header__menuToggle {
+    width: 25px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: var(--azul-padrao);
+  }
+
+  .header__navMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid var(--laranja-padrao);
+    text-align: center;
+    position: absolute;
+    top: calc(5rem + 1px);
+    z-index: 20;
+    background-color: var(--azul-padrao);
+    width: 100%;
+    height: 60vh;
+  }
+
+  .header__navMobile_lista {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-top: 5rem;
+    height: 100%;
+    
+  }
+
+  .header__navMobile_lista_item {
+    color: var(--branco-padrao);
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 2rem;
+    border-bottom: 1px solid var(--laranja-padrao);
+  }
+}
+
+/* @media screen and (max-width: 480px) {
+
+}
+*/

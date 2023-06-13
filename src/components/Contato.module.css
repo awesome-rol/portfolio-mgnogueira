@@ -1,0 +1,154 @@
+.contato {
+  background: url(../assets/backgroundHome.jpg);
+  height: calc(100vh - 5.125rem);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contato__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato__container_redes,
+.contato__container_comunicacao {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contato__container_redes_linkedin,
+.contato__container_redes_github,
+.contato__container_comunicacao_whatsapp,
+.contato__container_comunicacao_email {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1.2rem;
+} 
+
+.contato__container_redes_link,
+.contato__container_comunicacao_link {
+  text-decoration: none;
+  color: var(--branco-padrao);
+  font-size: 1.2rem;
+}
+
+.contato__container_redes_link:hover,
+.contato__container_comunicacao_link:hover {
+  color: var(--laranja-padrao);
+}
+
+.contato__container_redes_icone,
+.contato__container_comunicacao_icone {
+  width: 3.125rem;
+}
+
+
+.contato__container_comunicacao {
+  border-top: 3px solid var(--laranja-padrao);
+}
+
+
+.contato__container_comunicacao_whatsapp {
+  margin-bottom: 2rem;
+}
+
+.contato__container_redes_github {
+  padding-bottom: 2.5rem;
+}
+
+.contato__titulo {
+  color: var(--laranja-padrao);
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+.contato__container_redes_textos, 
+.contato__container_comunicacao_textos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.contato__container_redes_nome,
+.contato__container_comunicacao_nome {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--laranja-padrao);
+}
+
+
+.retratoBg__contato {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* Responsivo */
+
+/* Largura */
+
+@media screen and (max-width: 450px) {
+  .contato__container_redes_linkedin,
+  .contato__container_redes_github,
+  .contato__container_comunicacao_whatsapp,
+  .contato__container_comunicacao_email {
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.contato__container_redes_textos, 
+.contato__container_comunicacao_textos {
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.contato__container_redes_icone,
+.contato__container_comunicacao_icone {
+  width: 3rem;
+}
+
+  
+
+@media screen and (max-width: 380px) {
+  .contato__titulo {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .contato__container_redes_link,
+  .contato__container_comunicacao_link {
+    font-size: 0.8rem;
+}
+}
+}
+
+/* Altura */ 
+
+@media screen and (max-height: 625px) {
+  .contato__container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .contato__container_comunicacao {
+    border: none;
+    padding-left: 8rem;
+    margin-right: 4rem;
+  }
+
+  .contato__container_redes {
+    padding-right: 8rem;
+  }
+
+  .contato__container_redes_github {
+    padding-bottom: 0;
+  }
+
+  .contato__titulo {
+    margin-top: 4rem;
+  }
+}

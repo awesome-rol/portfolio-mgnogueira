@@ -1,0 +1,104 @@
+/* Introdução */
+
+.home__intro {
+  padding: 4rem 0 1rem 4rem;
+  color: var(--branco-padrao);
+  position: relative;
+  left: -20rem;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.home__intro_containerNomeRedes {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.home__intro_nome {
+  font-size: 1.75rem;
+}
+
+.home__intro_cargo {
+  font-family: 'Righteous', cursive;
+  font-size: 4rem;
+  color: var(--laranja-padrao);
+}
+
+.home__intro_descricao {
+  font-size: 1.75rem;
+  max-width: 43.75rem;
+  margin: 1.2rem 0 1rem 0;
+}
+
+/* Responsivo */
+
+/* Largura */
+
+@media screen and (max-width: 768px) {
+  .home__intro {
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .home__intro_cargo {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 619px) {
+  .home__intro {
+    text-align: center;
+  }
+
+  .home__intro_containerNomeRedes {
+    justify-content: center;
+  }
+
+  .home__intro_cargo {
+    margin-top: 1.2rem;
+  }
+
+  .home__intro_descricao {
+    margin-bottom: 2rem;
+  }
+
+  .contatoLateral {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 580px) {
+
+  .home__intro {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+
+  .home__intro_nome,
+  .home__intro_descricao {
+    font-size: 1.5rem;
+  }
+
+  .home__intro_cargo {
+    font-size: 3rem;
+  }
+
+}
+/* Altura */
+
+@media screen and (max-height: 420px) {
+  .home__intro {
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media screen and (max-height: 380px) {
+  .home__intro {
+    padding-left: 0;
+    padding-right: 2rem;
+    padding-top: 1rem;
+  }
+}
