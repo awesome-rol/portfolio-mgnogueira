@@ -133,6 +133,12 @@
 
 /* Altura */
 
+@media screen and (max-height: 780px) {
+  .home__projetosRecentes {
+    display: none;
+  }
+}
+
 @media screen and (max-height: 680px) {
   .home__projetosRecentes {
     bottom: 6rem;
