@@ -19,7 +19,7 @@ const listaProjetos = [
     descricao:
       'Este foi um site que fiz para vendas de produtos de rádio e TV, foi o meu primeiro projeto e fiz o design (inclusive a logomarca) e todas as funcionalidades do zero, uma característica interessante desse projeto foi que haviam muitas informações exibidas repetidamente em cada produto no site anterior, então foi uma ótima oportunidade para exercitar e aprender muitas coisas sobre criatividade e organização. As tecnologias que usei foram: HTML5, CSS3 e JavaScript',
     alternativo: 'Site feito por Miguel Nogueira',
-    link: 'https://site-samhost.vercel.app/index.html',
+    link: 'https://site-samhost.vercel.app/index.html/',
   },
   {
     id: 'onepage',
@@ -37,7 +37,7 @@ const listaProjetos = [
     descricao:
       'Este que vus fala! Meu queridinho, o projeto em que fui livre para expressar as minhas ideias e colocar em prática muito do que aprendi! Ele foi produzido utilizando HTML5, CSS3 Modules e React.JS!',
     alternativo: 'Site feito por Miguel Nogueira',
-    link: 'https://portfolio-mgnogueira.vercel.app',
+    link: 'https://portfolio-mgnogueira.vercel.app/',
   },
 ];
 
