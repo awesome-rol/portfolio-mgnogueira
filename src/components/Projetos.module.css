@@ -151,7 +151,7 @@
   }
 }
 
-@media screen and (max-height: 590px) {
+@media screen and (max-height: 650px) {
   .projetos__container {
     max-width: 50%;
     padding-top: 3rem;
