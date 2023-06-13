@@ -153,7 +153,7 @@
 
 @media screen and (max-height: 650px) {
   .projetos__container {
-    max-width: 50%;
+    max-width: 55%;
   }
 
   .projetos__lista_item_titulo {
