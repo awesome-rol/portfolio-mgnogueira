@@ -19,6 +19,7 @@ const listaProjetos = [
     descricao:
       'Este foi um site que fiz para vendas de produtos de rádio e TV, foi o meu primeiro projeto e fiz o design (inclusive a logomarca) e todas as funcionalidades do zero, uma característica interessante desse projeto foi que haviam muitas informações exibidas repetidamente em cada produto no site anterior, então foi uma ótima oportunidade para exercitar e aprender muitas coisas sobre criatividade e organização. As tecnologias que usei foram: HTML5, CSS3 e JavaScript',
     alternativo: 'Site feito por Miguel Nogueira',
+    link: 'https://site-samhost.vercel.app/index.html',
   },
   {
     id: 'onepage',
@@ -27,6 +28,7 @@ const listaProjetos = [
     descricao:
       'Este é um projeto onde o cliente solicitou um site que reunisse funcionalidades de rádio, TV e anúncios em uma só página, foi o meu primeiro projeto utilizando de forma focada o React.JS, foi ele que me criou interesse por estudar mais e criar projetos mais complexos utilizando o framework, inclusive, cheguei a aprender um pouco de integração com backend, já que tive que conectar o site de alguma forma com os servidores de músicas, streaming de TV e de rádio. Neste projeto utilizei: HTML5, CSS3 Modules e React.JS.',
     alternativo: 'Site feito por Miguel Nogueira',
+    link: 'https://site-onepage.vercel.app/',
   },
   {
     id: 'portfolio',
@@ -35,6 +37,7 @@ const listaProjetos = [
     descricao:
       'Este que vus fala! Meu queridinho, o projeto em que fui livre para expressar as minhas ideias e colocar em prática muito do que aprendi! Ele foi produzido utilizando HTML5, CSS3 Modules e React.JS!',
     alternativo: 'Site feito por Miguel Nogueira',
+    link: 'https://portfolio-mgnogueira.vercel.app',
   },
 ];
 
@@ -60,7 +63,7 @@ const Projetos = () => {
                   src={item.imagem}
                   alt={item.alternativo}
                 />
-                <Botao titulo="Ver" />
+                <Botao link={item.link} titulo="Ver" />
                 <button
                   onClick={abrirModal}
                   className={styles.projetos__lista_item_botaoInfo}
