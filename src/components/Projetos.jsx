@@ -26,7 +26,7 @@ const listaProjetos = [
     titulo: 'Site OnePage',
     imagem: mockupOnePage,
     descricao:
-      'Este é um projeto onde o cliente solicitou um site que reunisse funcionalidades de rádio, TV e anúncios em uma só página, foi o meu primeiro projeto utilizando de forma focada o React.JS, foi ele que me criou interesse por estudar mais e criar projetos mais complexos utilizando o framework, inclusive, cheguei a aprender um pouco de integração com backend, já que tive que conectar o site de alguma forma com os servidores de músicas, streaming de TV e de rádio. Neste projeto utilizei: HTML5, CSS3 Modules e React.JS.',
+      'Este é um projeto onde o cliente solicitou um site que reunisse funcionalidades de rádio, TV e anúncios em uma só página, foi o meu primeiro projeto utilizando de forma focada o React.JS, cheguei a aprender um pouco de integração com backend, já que tive que conectar o site de alguma forma com os servidores de músicas, streaming de TV e de rádio. Neste projeto utilizei: HTML5, CSS3 Modules e React.JS.',
     alternativo: 'Site feito por Miguel Nogueira',
     link: 'https://site-onepage.vercel.app/',
   },
