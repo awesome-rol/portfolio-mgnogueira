@@ -50,7 +50,7 @@
     margin-bottom: 0;
   }
 }
-  @media screen and (max-height: 850px) {
+  @media screen and (max-height: 850px) and (max-width: 440px) {
     .carousel-root.slider {
       margin-bottom: 10rem;
     }
