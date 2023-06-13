@@ -44,16 +44,24 @@
 
 /* Altura */
 
-@media screen and (max-height: 600px) {
-  .thumbs.animated {
-    display: none;
-  }
-}
 
 @media screen and (max-height: 1080px) {
   .carousel-root.slider {
     margin-bottom: 0;
   }
+}
+  @media screen and (max-height: 850px) {
+    .carousel-root.slider {
+      margin-bottom: 10rem;
+    }
+  }
+
+
+@media screen and (max-height: 600px) {
+  .thumbs.animated {
+    display: none;
+  }
+  
 }
 
 /* Largura */
@@ -61,5 +69,11 @@
 @media screen and (min-width: 1750px) {
   .thumbs.animated {
     display: none;
+  }
+}
+
+@media screen and (max-width: 440px) {
+    .thumbs.animated {
+      display: none;
   }
 }

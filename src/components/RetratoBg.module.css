@@ -9,20 +9,13 @@
 
 @media screen and (max-width: 1025px) {
   .retrato {
-    width: 300px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .retrato {
     width: 200px;
   }
 }
-
 /* Altura */
 
 @media screen and (max-height: 768px) {
   .retrato {
-    width: 150px;
+    width: 200px;
   }
 }

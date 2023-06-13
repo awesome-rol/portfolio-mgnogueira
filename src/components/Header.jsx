@@ -63,7 +63,7 @@ const Header = () => {
               <Link
                 onClick={menuModal}
                 className={styles.header__navMobile_lista_item}
-                to="/conta"
+                to="/contato"
               >
                 Contato
               </Link>
