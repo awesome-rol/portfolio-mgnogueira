@@ -57,7 +57,7 @@
   }
 
 
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 700px) {
   .thumbs.animated {
     display: none;
   }
