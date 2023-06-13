@@ -63,7 +63,7 @@ const Projetos = () => {
                   src={item.imagem}
                   alt={item.alternativo}
                 />
-                <Botao link={item.link} titulo="Ver" />
+                <Botao link={item.link} titulo="Ver" target="_blank" />
                 <button
                   onClick={abrirModal}
                   className={styles.projetos__lista_item_botaoInfo}
