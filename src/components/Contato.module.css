@@ -142,13 +142,15 @@
   width: 3rem;
 }
 
-  
-
-@media screen and (max-width: 380px) {
-
+@media screen and (max-width: 415px) {
   .contato__container {
     padding-top: 0;
   }
+}
+
+  
+
+@media screen and (max-width: 380px) {
 
   .contato__container_comunicacao {
     margin-top: 2rem;
