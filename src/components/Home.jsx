@@ -44,7 +44,7 @@ const Home = () => {
               titulo="Site Samhost"
             />
             <ProjetoHome
-              site="https://onepage.com.br/"
+              site="https://site-one-page.vercel.app/"
               url={imagemProjetoOnePage}
               titulo="Site OnePage"
             />

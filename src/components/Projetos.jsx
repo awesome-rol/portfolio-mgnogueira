@@ -28,7 +28,7 @@ const listaProjetos = [
     descricao:
       'Este é um projeto onde o foi solicitado um site que reunisse funcionalidades de rádio, TV e anúncios em uma só página, pude exercitar de forma focada o React.JS, aprendi também um pouco sobre integração com backend. Neste projeto utilizei: HTML5, CSS3 Modules e React.JS.',
     alternativo: 'Site feito por Miguel Nogueira',
-    link: 'https://site-onepage.vercel.app/',
+    link: 'https://site-one-page.vercel.app/',
   },
   {
     id: 'portfolio',
