@@ -3,8 +3,7 @@
   display: flex;
   justify-content: center;
   background-image: url(../assets/backgroundHome.jpg);
-  min-height: calc(100vh - 5.125rem);
-  max-height: calc(100vh - 5.125rem);
+  height: calc(100vh - 5.125rem);
   background-size: cover;
   overflow-y: hidden;
 }

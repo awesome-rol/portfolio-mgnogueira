@@ -1,7 +1,6 @@
 .contato {
   background: url(../assets/backgroundHome.jpg);
-  min-height: calc(100vh - 5.125rem);
-  max-height: calc(100vh - 5.125rem);
+  height: calc(100vh - 5.125rem);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -144,6 +143,10 @@
 }
 
 @media screen and (max-width: 415px) {
+  .contato {
+    height: calc(100vh - 10.250rem);
+  }
+
   .contato__container {
     padding-top: 0;
   }
