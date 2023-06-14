@@ -1,6 +1,7 @@
 .contato {
   background: url(../assets/backgroundHome.jpg);
-  height: calc(100vh - 5.125rem);
+  min-height: calc(100vh - 5.125rem);
+  max-height: calc(100vh - 5.125rem);
   background-size: cover;
   display: flex;
   align-items: center;
