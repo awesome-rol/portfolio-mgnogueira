@@ -2,7 +2,7 @@
   position: relative;
   font-size: 1.2rem;
   max-width: 50rem;
-  padding: 4rem 0 1.2rem 4rem;
+  padding: 3.75rem 0 1.2rem 4rem;
   color: var(--branco-padrao);
   line-height: 1.7rem;
   left: -20rem;
@@ -11,7 +11,7 @@
 }
 
 .sobreMim__habilidades {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   text-align: left;
 }
 
@@ -28,9 +28,9 @@
 @media screen and (max-width: 768px) {
 
   .sobreMim__texto {
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: left;
-    line-height: 1rem;
+    line-height: 1.5rem;
     width: 90%;
   }
 
