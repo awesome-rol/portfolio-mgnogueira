@@ -19,7 +19,7 @@ const listaProjetos = [
     descricao:
       'Esta foi uma repaginação que fiz para vendas de produtos de rádio e TV, fiz o design (inclusive logomarca) e todas as funcionalidades do zero, haviam muitas informações exibidas repetidamente em cada produto no site anterior, pude exercitar e aprender muitas coisas sobre criatividade e organização. As tecnologias que usei foram: HTML5, CSS3 e JavaScript',
     alternativo: 'Site feito por Miguel Nogueira',
-    link: 'https://site-samhost.vercel.app/index.html/',
+    link: 'https://site-samhost.vercel.app/',
   },
   {
     id: 'onepage',

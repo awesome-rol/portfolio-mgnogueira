@@ -39,7 +39,7 @@ const Home = () => {
         <div className={styles.home__projetosRecentes_listaContainer}>
           <ul className={styles.home__projetosRecentes_lista}>
             <ProjetoHome
-              site="https://site-samhost.vercel.app/index.html"
+              site="https://site-samhost.vercel.app/"
               url={imagemProjetoSamhost}
               titulo="Site Samhost"
             />
