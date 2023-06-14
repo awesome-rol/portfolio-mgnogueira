@@ -5,6 +5,7 @@
   background-image: url(../assets/backgroundHome.jpg);
   height: calc(100vh - 5.125rem);
   background-size: cover;
+  overflow-y: hidden;
 }
 .projetos__container {
   position: absolute;
