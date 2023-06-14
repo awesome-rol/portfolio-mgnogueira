@@ -143,9 +143,6 @@
 }
 
 @media screen and (max-width: 415px) {
-  .contato {
-    height: 100vh;
-  }
 
   .contato__container {
     padding-top: 0;
