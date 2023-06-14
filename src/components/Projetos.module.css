@@ -11,7 +11,7 @@
 }
 .projetos__container {
   position: absolute;
-  top: 5rem;
+  top: 4rem;
   height: calc(100% - 5.125rem);
   display: flex;
   align-items: center;
@@ -22,7 +22,6 @@
 .projetos__lista {
   display: flex;
   list-style: none;
-  
 }
 
 .projetos__lista_item {
@@ -65,7 +64,7 @@
 }
 
 .projetos__lista_item_modal {
-  max-width: 31.25rem;
+  max-width: 36.25rem;
   text-align: left;
   padding: 2rem 4rem;
   background-color: var(--azul-padrao);
@@ -78,6 +77,7 @@
 
 .projetos__lista_item_modal_texto {
   line-height: 2rem;
+  font-size: 1.2rem;
 }
 
 
@@ -109,7 +109,8 @@
 
 @media screen and (max-width: 600px) {
   .projetos__lista_item_modal_texto {
-    line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.8rem;
   }
 }
 
@@ -128,7 +129,7 @@
   }
 
   .projetos__lista_item_modal_texto {
-    font-size: 0.8rem;
+    
     max-width: 230px;
     text-align: justify;
   }

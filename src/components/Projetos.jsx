@@ -17,7 +17,7 @@ const listaProjetos = [
     titulo: 'Site Samhost',
     imagem: mockupSamhost,
     descricao:
-      'Este foi um site que fiz para vendas de produtos de rádio e TV, foi o meu primeiro projeto e fiz o design (inclusive a logomarca) e todas as funcionalidades do zero, uma característica interessante desse projeto foi que haviam muitas informações exibidas repetidamente em cada produto no site anterior, então foi uma ótima oportunidade para exercitar e aprender muitas coisas sobre criatividade e organização. As tecnologias que usei foram: HTML5, CSS3 e JavaScript',
+      'Esta foi uma repaginação que fiz para vendas de produtos de rádio e TV, fiz o design (inclusive logomarca) e todas as funcionalidades do zero, haviam muitas informações exibidas repetidamente em cada produto no site anterior, pude exercitar e aprender muitas coisas sobre criatividade e organização. As tecnologias que usei foram: HTML5, CSS3 e JavaScript',
     alternativo: 'Site feito por Miguel Nogueira',
     link: 'https://site-samhost.vercel.app/index.html/',
   },
@@ -26,7 +26,7 @@ const listaProjetos = [
     titulo: 'Site OnePage',
     imagem: mockupOnePage,
     descricao:
-      'Este é um projeto onde o cliente solicitou um site que reunisse funcionalidades de rádio, TV e anúncios em uma só página, foi o meu primeiro projeto utilizando de forma focada o React.JS, cheguei a aprender um pouco de integração com backend, já que tive que conectar o site de alguma forma com os servidores de músicas, streaming de TV e de rádio. Neste projeto utilizei: HTML5, CSS3 Modules e React.JS.',
+      'Este é um projeto onde o foi solicitado um site que reunisse funcionalidades de rádio, TV e anúncios em uma só página, pude exercitar de forma focada o React.JS, aprendi também um pouco sobre integração com backend. Neste projeto utilizei: HTML5, CSS3 Modules e React.JS.',
     alternativo: 'Site feito por Miguel Nogueira',
     link: 'https://site-onepage.vercel.app/',
   },
@@ -48,8 +48,15 @@ const Projetos = () => {
   function abrirModal() {
     setModal(!modal);
   }
+
+  function handleOutsideClick() {
+    if (modal) {
+      setModal(false);
+    }
+  }
+
   return (
-    <div className={styles.projetos}>
+    <div onClick={handleOutsideClick} className={styles.projetos}>
       <div className={styles.projetos__container}>
         <Carousel className="slider">
           {listaProjetos.map((item) => {
