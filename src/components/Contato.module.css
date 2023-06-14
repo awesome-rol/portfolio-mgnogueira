@@ -144,7 +144,7 @@
 
 @media screen and (max-width: 415px) {
   .contato {
-    height: calc(100vh - 10.250rem);
+    height: auto;
   }
 
   .contato__container {
