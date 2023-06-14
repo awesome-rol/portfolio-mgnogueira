@@ -49,7 +49,7 @@ const Projetos = () => {
     setModal(!modal);
   }
   return (
-    <section className={styles.projetos}>
+    <div className={styles.projetos}>
       <div className={styles.projetos__container}>
         <Carousel className="slider">
           {listaProjetos.map((item) => {
@@ -95,7 +95,7 @@ const Projetos = () => {
       <div className={styles.retratoBg__projetos}>
         <RetratoBg />
       </div>
-    </section>
+    </div>
   );
 };
 

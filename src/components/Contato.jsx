@@ -7,7 +7,7 @@ import RetratoBg from './RetratoBg';
 
 const Contato = () => {
   return (
-    <section className={styles.contato}>
+    <div className={styles.contato}>
       <div className={styles.contato__container}>
         <div className={styles.contato__container_redes}>
           <h2 className={styles.contato__titulo}>Minhas redes</h2>
@@ -110,7 +110,7 @@ const Contato = () => {
       <div className={styles.retratoBg__contato}>
         <RetratoBg />
       </div>
-    </section>
+    </div>
   );
 };
 
