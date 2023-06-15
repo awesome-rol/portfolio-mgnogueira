@@ -17,7 +17,7 @@ const listaProjetos = [
     titulo: 'Site Samhost',
     imagem: mockupSamhost,
     descricao:
-      'Esta foi uma repaginação que fiz para vendas de produtos de rádio e TV, fiz o design (inclusive logomarca) e todas as funcionalidades do zero, haviam muitas informações exibidas repetidamente em cada produto no site anterior, pude exercitar e aprender muitas coisas sobre criatividade e organização. As tecnologias que usei foram: HTML5, CSS3 e JavaScript',
+      'Esta foi uma repaginação que fiz para vendas de produtos de rádio e TV para praticar, fiz o design (inclusive logomarca) e todas as funcionalidades do zero, haviam muitas informações exibidas repetidamente em cada produto no site anterior, pude exercitar e aprender muitas coisas sobre criatividade e organização. As tecnologias que usei foram: HTML5, CSS3 e JavaScript',
     alternativo: 'Site feito por Miguel Nogueira',
     link: 'https://site-samhost.vercel.app/',
   },
@@ -26,7 +26,7 @@ const listaProjetos = [
     titulo: 'Site OnePage',
     imagem: mockupOnePage,
     descricao:
-      'Este é um projeto onde foi solicitado um site que reunisse funcionalidades de rádio, TV e anúncios em uma só página, pude exercitar de forma focada o React.JS, aprendi também um pouco sobre integração com backend. Neste projeto utilizei: HTML5, CSS3 Modules e React.JS.',
+      'Este é um projeto onde foi solicitado um site que reunisse funcionalidades de rádio, TV e anúncios em uma só página, pude exercitar de forma focada o React.JS, aprendi também um pouco sobre integração com backend, não foi ao ar, mas foi ótimo para praticar. Neste projeto utilizei: HTML5, CSS3 Modules e React.JS.',
     alternativo: 'Site feito por Miguel Nogueira',
     link: 'https://site-one-page.vercel.app/',
   },
